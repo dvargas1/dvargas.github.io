@@ -7,24 +7,23 @@ exclude: ['README.*', 'LICENSE.txt']
 sass:
     style: expanded
 
-
 # CAUTION
 # When modifying this file, take care to preserve the indentation. This is YAML ...
 
 # Main Headline, name required, subtitle optional
-name: Fuse Core
+name: Daniel Vargas
 #subtitle:
-subtitle: Frontend Developer
+subtitle: Software Enginner
 
 # Title attribute of HTML Page, uses 'name' from above if empty
-title: Fuse Core
+title: Dvargas Profile
 
 # Information for web crawlers / Google, all of them optional
 # 'description' and 'keywords' simply set the corresponding meta tags,
 # 'crawl' is the 'Robots' tag http://www.robotstxt.org/meta.html
 robots:
-    description: One line of text describing the content of the page in less than 140 characters.
-    keywords: foo, bar, baz
+    description: DanielVargas coder profile.
+    keywords: code, c, github
     crawl: index,follow
 
 # website address when deployed, also given as canonical link
@@ -34,31 +33,12 @@ url: https://tsjensen.github.io/fuse-core/
 # 'baseurl' will often be '', but for a project page on gh-pages, it needs to be the project name.
 # If not empty, be careful to keep the leading slash, and don't add a slash at the end.
 #baseurl: ''
-baseurl: '/fuse-core'
-
-# Enable Google Analytics. Leave empty (just "ga:" with subitems commented out) to disable.
-# In order to comply with EU cookie law, enable 'cookieconsent' to show a little popup asking users to acknowledge the GA cookies.
-# Also, some places require you to anonymize the users' IPs, which can be enabled via 'anonymizeip' below. You normally want that.
-# https://support.google.com/analytics/answer/2763052
-#ga:
-ga:
-    account: 'UA-120960520-1'
-    cookieconsent: true
-    anonymizeip: true
-
-# Plausible.io Analytics (alternative to Google Analytics that does not need cookies -> no cookie consent required)
-# A config setting is required in plausible to enable tracking of the outbound links. Details described here:
-# https://plausible.io/docs/outbound-link-click-tracking
-# Leave empty (just "plausible:" with subitems commented out) to disable.
-#plausible:
-plausible:
-    domain: 'tsjensen.github.io'
-
+baseurl: ''
 
 # A picture of you, square(!), at least 180x180 pixels, more is better. Recommended file size < 100 KB.
 # Leave empty for generic placeholder image.
 # You can use your GitHub image:
-avatar: "https://avatars0.githubusercontent.com/u/8897534"
+avatar: "https://avatars.githubusercontent.com/u/21111088?s=400&u=d9221df91a14b4fc70369f3b3d87335fd623402d&v=4"
 #avatar: "images/jonathan_doe.jpg"
 #avatar:
 
@@ -73,8 +53,8 @@ links:
       icon: fab fa-xing
   - linkedin:
       name: LinkedIn
-      show: false
-      href: https://linkedin.com/in/YOUR_LINKEDIN_USERNAME/
+      show: true
+      href: https://www.linkedin.com/in/daniel-vargas-919985193/
       icon: fab fa-linkedin
   - googleplus:
       name: Google+
@@ -83,12 +63,12 @@ links:
       icon: fab fa-google-plus
   - twitter:
       name: Twitter
-      show: true
+      show: false
       href: https://twitter.com/YOUR_TWITTER_USERNAME
       icon: fab fa-twitter
   - weibo:
       name: 微博
-      show: true
+      show: false
       href: https://weibo.com/YOUR_WEIBO_USERNAME
       icon: fab fa-weibo
   - vine:
@@ -103,13 +83,13 @@ links:
       icon: fab fa-facebook
   - vkontakte:
       name: ВКонтакте
-      show: true
+      show: false
       href: https://vk.com/YOUR_VK_USERNAME
       icon: fab fa-vk
   - instagram:
       name: Instagram
-      show: false
-      href: https://instagram.com/YOUR_INSTAGRAM_USERNAME
+      show: true
+      href: https://instagram.com/ovargasdaniel
       icon: fab fa-instagram
   - flickr:
       name: Flickr
@@ -134,7 +114,7 @@ links:
   - github:
       name: GitHub
       show: true
-      href: https://github.com/tsjensen
+      href: https://github.com/dvargas1
       icon: fab fa-github
   - codepen:
       name: CodePen
@@ -163,17 +143,17 @@ links:
       icon: fab fa-tumblr
   - blog:
       name: Blog
-      show: true
+      show: false
       href: http://host.domain/your_blog
       icon: fas fa-book-open
   - email:
       name: Email
       show: true
-      href: mailto:jonathan.doe@host.domain
+      href: mailto:daniel_v93@hotmail.com
       icon: fas fa-envelope
   - publickey:
       name: PGP Key
-      show: true
+      show: false
       href: https://pastebin.com/raw/YOUR_PUBLIC_KEY
       icon: fas fa-key
 
@@ -181,7 +161,8 @@ links:
 # Extra HTML which will be displayed below the links. Keep it short. Leave empty to disable.
 #extra_html:
 extra_html: >
-    Any (multiline) text containing simple HTML,
-    such as links or ... lorem ipsum.
+    Sou estudante de Engenharia de Software e apaixonado por SRE e Docker.
+    Busco aprimorar minhas habilidades em automação, escalabilidade e
+    confiabilidade de sistemas. Estou comprometido em contribuir para a evolução da tecnologia nessa área em constante crescimento.
 
 #EOF
